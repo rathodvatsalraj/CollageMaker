@@ -1,0 +1,107 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: cover;
+}
+
+
+
+.form {
+    background-color: #ffffffc2;
+    margin-top: 61px;
+    margin-left: 16%;
+    margin-right: 16%;
+    border: solid #7a7a7a;
+    border-width: thin;
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+    height: 319px;
+    line-height: 58px;
+    border-radius: 38px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    color: #fffeff;
+    background-color: rgb(131 86 48);
+    cursor: pointer;
+    border: 2px rgb(169, 136, 136) solid;
+    border-radius: 19px;
+    margin: 1px;
+    margin-top: 0px;
+    padding: 7px 34px 7px;
+    width: 150px;
+}
+
+.btn:hover {
+    background-color: rgb(162 98 43);
+}
+
+.box {
+    border: solid #7a7a7a;
+    border-width: thin;
+    width: 243px;
+    border-radius: 17px;
+    background-color: #ffffff;
+    height: 31px;
+    text-align: center;
+    font-size: medium;
+}
+
+h2 {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: -16px;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: -1px;
+}
+
+.login {
+    background-color: #ffffffc2;
+    margin-top: 20px;
+    margin-left: 16%;
+    margin-right: 16%;
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+    height: 350px;
+    line-height: 58px;
+    border-radius: 38px;
+    font-family: 'Ubuntu', sans-serif;
+    border: solid #7a7a7a;
+    border-width: thin;
+}
+
+.logo {
+    height: 85px;
+    width: 78px;
+    display: inline-block;
+    /* margin-left: 20px; */
+    /* margin-top: 20px; */
+    margin-right: 0px;
+}
+
+.blink {
+    text-decoration: none;
+}
+
+.blink:hover {
+    color: rgb(29, 12, 129);
+    font-weight: bolder;
+}

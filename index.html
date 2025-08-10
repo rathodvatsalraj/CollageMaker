@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body background="photos/signinup.jpg">
+    <img src="photos/whitelogo.png" class="logo">
+    <h2>Welcome to Collage Maker</h2>
+    <div class="login">
+        <div>
+            <h3>Login to Your Account</h3>
+        </div>
+        <form id="Sign-in">
+            <div><input type="email" placeholder="Enter Your Email" class="box" id="Email1" required></div>
+            <div><input type="password" placeholder="Enter Your Password" class="box" id="pass1" required></div>
+            <div>Don't have an account? <a href="Newuser.html" class="blink">Sign-Up</a></div>
+            <button type="submit" class="btn" id="submit2">Sign-in</button>
+            <button type="reset" class="btn">Clear</button>
+        </form>
+    </div>
+    <script src="valid.js"></script>
+    <script type="module" src='firebase.js'></script>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
